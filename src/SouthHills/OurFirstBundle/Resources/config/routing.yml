@@ -1,0 +1,19 @@
+south_hills_our_first_homepage:
+    pattern:  /speak/{name}
+    defaults: { _controller: SouthHillsOurFirstBundle:Default:index }
+
+south_hills_jump: 
+    pattern: /jump/{name}
+    defaults: { _controller: SouthHillsOurFirstBundle:Default:jump }
+
+south_hills_dive:
+    pattern: /dive/{name}
+    defaults: { _controller: SouthHillsOurFirstBundle:Default:dive }
+
+south_hills_contact_us:
+    pattern: /contact-us
+    defaults: { _controller: SouthHillsOurFirstBundle:Default:contactUs }
+
+south_hils_test_global_template:
+    pattern: /test-global-template
+    defaults: { _controller: SouthHillsOurFirstBundle:Default:testGlobalTemplate }

@@ -1,0 +1,16 @@
+doug_de_antonio_simple_emailer:
+    resource: "@DougDeAntonioSimpleEmailerBundle/Resources/config/routing.yml"
+    prefix:   /
+
+south_hills_our_database:
+    resource: "@SouthHillsOurDatabaseBundle/Resources/config/routing.yml"
+    prefix:   /
+
+south_hills_our_second:
+    resource: "@SouthHillsOurSecondBundle/Resources/config/routing.yml"
+    prefix:   /
+
+south_hills_our_first:
+    resource: "@SouthHillsOurFirstBundle/Resources/config/routing.yml"
+    prefix:   /
+

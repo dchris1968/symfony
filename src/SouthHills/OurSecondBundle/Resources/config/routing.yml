@@ -1,0 +1,17 @@
+south_hills_our_second_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: SouthHillsOurSecondBundle:Default:index }
+
+south_hills_pass_array_to_view:
+    pattern: /pass-array
+    defaults: { _controller: SouthHillsOurSecondBundle:Default:passArray }
+
+south_hills_foward:
+    pattern: /forward-example
+    defaults: { _controller: SouthHillsOurSecondBundle:Default:forward }
+
+south_hills_test_requirement:
+    pattern: /test-requirement/{page}
+    defaults: { _controller: SouthHillsOurSecondBundle:Default:testRequirement }
+    requirements:
+      page: \d+

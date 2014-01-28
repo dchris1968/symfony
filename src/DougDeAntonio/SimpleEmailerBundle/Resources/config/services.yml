@@ -1,0 +1,7 @@
+parameters:
+#    doug_de_antonio_simple_emailer.example.class: DougDeAntonio\SimpleEmailerBundle\Example
+
+services:
+#    doug_de_antonio_simple_emailer.example:
+#        class: %doug_de_antonio_simple_emailer.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,7 @@
+doug_de_antonio_simple_emailer_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: DougDeAntonioSimpleEmailerBundle:Default:index }
+
+doug_de_antonio_template_design:
+    pattern:  /enlighten
+    defaults: { _controller: DougDeAntonioSimpleEmailerBundle:Default:enlighten }
