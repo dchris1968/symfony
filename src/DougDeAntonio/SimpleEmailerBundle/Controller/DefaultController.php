@@ -14,4 +14,15 @@ class DefaultController extends Controller
 	{
 		return $this->render('DougDeAntonioSimpleEmailerBundle:Default:index.html.twig');
 	}
+	public function emailAction($emailAddress)
+	{
+		$message = \Swift_Message::newInstance()
+			->setSubject('Email Hello!')
+			->setFrom('dchris1968b@gmail.com')
+			->setTo($emailAddress)
+			->setBody('Welcome to my email!');
+		$this->get('mailer')->send($message);
+		
+		return $this->render('DougDeAntonioSimpleEmailerBundle:Default:index.html.twig');
+	}
 }

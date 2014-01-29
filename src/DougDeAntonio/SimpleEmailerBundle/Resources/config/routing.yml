@@ -5,3 +5,7 @@ doug_de_antonio_simple_emailer_homepage:
 doug_de_antonio_template_design:
     pattern:  /enlighten
     defaults: { _controller: DougDeAntonioSimpleEmailerBundle:Default:enlighten }
+
+doug_de_antonio_emailer:
+    pattern: /email/{emailAddress}
+    defaults: { _controller: DougDeAntonioSimpleEmailerBundle:Default:email }
